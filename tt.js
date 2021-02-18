@@ -30,8 +30,7 @@ function displayResults(weather)
   //let ssd=document.getElementById('ss');
   let weat=document.getElementById('weather');
   weat.innerText= weather.weather[0].main;
-  let high=document.getElementById('hilow');
-  high.innerText= weather.main.temp_min, weather.main.temp_max;
+ 
 
 }
 
